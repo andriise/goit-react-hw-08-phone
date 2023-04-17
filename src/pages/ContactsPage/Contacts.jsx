@@ -4,7 +4,7 @@ import { Dna } from 'react-loader-spinner';
 
 import { fetchContacts } from '../../redux/contacts/operations';
 import { ContactList } from 'components/contacts/ContactList';
-import { Filter } from 'components/filter/Filter';
+import { Filter } from 'components/Filter/Filter';
 import ContactForm from 'components/form/ContactForm';
 import { selectIsLoading, selectError } from '../../redux/contacts/selectors';
 
